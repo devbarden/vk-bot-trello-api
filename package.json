@@ -1,0 +1,30 @@
+{
+  "name": "vk-bot-trello-api",
+  "version": "1.0.0",
+  "description": "There is a bot for vk which use trello api to be a good personal helper",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbarden/vk-bot-trello-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbarden/vk-bot-trello-api/issues"
+  },
+  "homepage": "https://github.com/devbarden/vk-bot-trello-api#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "body-parser": "^1.18.3",
+    "node-fetch": "^2.6.0",
+    "botact": "^2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
